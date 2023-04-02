@@ -1,0 +1,366 @@
+.artist-mainarea{
+    margin: 0rem 5rem;
+}
+
+.artist-title-text{
+    font-size: 24px;
+    margin: 2rem 0rem 1rem 0rem;
+}
+
+.artist-notification{
+    display: flex;
+    flex-direction: row;
+}
+
+.artist-mainarea .ant-switch-checked{
+    background-color: var(--weversePurple);
+}
+
+.artist-mainarea .ant-switch {
+    border: 1px solid var(--weversePurple);
+}
+
+.artist-notification-text{
+    font-size: 18px;
+    margin-left: 0.5rem;
+    line-height: 22px;
+}
+
+.artist-moment{
+    margin: 1rem 0rem;
+}
+
+.artist-moment-title{
+    font-size: 20px;
+}
+
+.artist-post{
+    margin: 1rem 0rem;
+}
+
+.moment-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.moment-thumbnail{
+    width:3.5rem;
+    height:3.5rem;
+    border-radius: 3.5rem;
+
+    border: solid 3px var(--weverseGreen);
+    cursor:pointer;
+    object-fit: cover;
+}
+
+.moment-set{
+    margin:1rem 1rem;
+    display: flex;
+    z-index: 5;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.moment-modal-thumbnail{
+    width:3.5rem;
+    height:3.5rem;
+    border-radius: 3.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
+}
+
+.artist-mainarea .ant-modal-body, .ant-modal-content {
+    background-color: var(--weverseBlack);
+    width: 40rem;
+    padding-top: 1.5rem;
+}
+
+.moment-modal{
+    margin-top:-3rem;
+    padding-top: 1.5rem;
+    width:25rem;
+    /* background-color: orange; */
+    height:40rem;
+}
+
+.moment-modal-picture-container{
+    width:23.5rem;
+    height:30rem;
+    overflow: hidden;
+}
+
+.moment-picture{
+    width:23.5rem;
+    height:30rem;
+    object-fit: cover;
+
+}
+
+.moment-modal-title{
+    display: flex;
+    flex-direction: row;
+    /* background-color: darkolivegreen; */
+}
+
+.moment-modal-text{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:3.5rem;
+}
+
+.moment-modal-like{
+    margin:1rem 0rem;
+    text-align: center;
+}
+.moment-modal-timeline{
+    height:0.3rem;
+    width:23.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--weverseGrey);
+}
+
+.artist-post-title{
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+.artist-post-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: lightsalmon; */
+    /* width:100%; */
+}
+.artist-post-card{
+    margin-bottom: 2rem;
+    /* background-color: lightcoral; */
+    width:40rem;
+    border-radius: 10px;
+    border: solid 1px white;
+    padding:1.5rem;
+}
+
+.artist-post-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.artist-post-header-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.artist-post-header-lefttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.artist-post-artistname{
+    font-size: 18px;
+
+}
+.artist-post-date{
+    font-size: 14px;
+
+}
+
+.artist-post-thumbnail{
+    width:3.5rem;
+    height:3.5rem;
+    border-radius: 3.5rem;
+    margin-right: 1.5rem;
+    object-fit: cover;
+}
+
+.artist-post-content{
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.artist-post-image-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.artist-post-1image{
+    width:100%;
+    height:25rem;
+    margin-top:1rem;
+    border-radius: 10px;
+    object-fit:cover;
+
+}
+
+.artist-post-2imagesl{
+    width:18rem;
+    height:25rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+    margin-top:1rem;
+    object-fit: cover;
+}
+
+.artist-post-3images-big{
+    width:18rem;
+    height:25rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+    margin-top:1rem;
+    object-fit: cover;
+}
+
+.artist-post-3images-small{
+    width:18rem;
+    height:12rem;
+    margin-top:1rem;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.artist-post-4images-small{
+    width:18rem;
+    height:12rem;
+    margin-top:1rem;
+    margin-right:1rem;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.artist-post-like{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width:100%;
+    height:2.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+.artist-reply-container{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    
+}
+
+.artist-reply-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.artist-reply-content{
+    width:auto;
+    max-width: 30rem;
+    padding:0.5rem 1rem;
+    height:auto;
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+
+.artist-reply-thumbnail{
+    width:3rem;
+    height:3rem;
+    border-radius: 3rem;
+    margin-right: 1rem;
+    background: linear-gradient(90deg, var(--weverseGreen) 20%, var(--weverseBlue) 84%);
+
+}
+
+.artist-reply-like{
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.artist-reply-btn{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.icon-like{
+    cursor: pointer;
+}
+
+.icon-like a{
+    color:var(--weverseBlue)
+  }
+  .icon-like .ant-icon:hover{
+    color:var(--weverseGreen)
+  }
+  .icon-like .ant-icon:active{
+    color:var(--weverseBlue)
+  }
+
+  .artist-more-comments-container{
+      width:100%;
+      display: flex;
+      justify-content: center;
+  }
+
+  .artist-more-comments{
+      width:13rem;
+      height:2rem;
+      line-height: 2rem;
+      /* background-color: aquamarine; */
+      color:var(--weversePurple);
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      border: 1px solid var(--weversePurple);
+      border-radius: 10px;
+      cursor: pointer;
+  }
+
+  .artist-reply-input .ant-btn-primary{
+    background-color: var(--weverseBlack);
+    border-color: transparent;
+
+  }
+
+  .artist-reply-input .ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button {
+    border-radius: 0px 10px 10px 0px;
+
+  }
+  .artist-reply-input{
+      width:30.9rem;
+      height:3rem;
+      background: linear-gradient(35deg, var(--weverseGreen) 20%, var(--weverseBlue) 84%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+  }
+  .artist-reply-input .ant-input{
+      color:white;
+      background-color: var(--weverseBlack);
+      line-height: 2rem;
+      width:26rem;
+      border-color: transparent;
+      border-radius: 10px;
+  }
+
+  .artist-reply-input .ant-input-group-addon{
+    background-color: var(--weverseBlack);
+    margin-right: 0;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .artist-reply-input .ant-input-search > .ant-input-group > .ant-input-group-addon:last-child{
+    left:0
+  }
+
+  .artist-userreply-container{
+      margin-top: 1.5rem;
+  }
+
+
